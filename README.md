@@ -30,3 +30,18 @@ View the persistent-volume.yml
 # Deploy the MySQL server
 
 View the mysql-deployment.yml
+
+Deploying the Mysql Server: *kubectl apply -f mysql-deployment.yml*
+
+And see if a pod is running via *kubectl get pods.*
+
+# Create database and table
+
+kubectl run -it --rm --image=mysql --restart=Never mysql-client -- mysql --host mysql --password=<clear_password>
+
+CREATE DATABASE DS3;
+USE DS3;
+CREATE TABLE weapons(weapon_id INT PRIMARY KEY AUTO_INCREMENT, weapon_name VARCHAR(255), weapon_name_fr VARCHAR(255), weapon_category VARCHAR(255));
+
+SHOW DATABASES;
+SHOW TABLES;
