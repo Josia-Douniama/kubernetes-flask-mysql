@@ -1,5 +1,8 @@
 # kubernetes-flask-mysql
 
+# Install docker 
+https://docs.docker.com/engine/install/ubuntu/
+
 # installation of minikube on my ubunutu 
 
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
