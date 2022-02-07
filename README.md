@@ -28,3 +28,5 @@ View the secret.yaml
 View the persistent-volume.yml 
 
 # Deploy the MySQL server
+
+View the mysql-deployment.yml
