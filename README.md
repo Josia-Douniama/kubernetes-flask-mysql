@@ -10,7 +10,8 @@ To install Minikube on other OS: https://minikube.sigs.k8s.io/docs/start/
 
 To verify the minikube version, use the command: minikube version
 
-To Start your cluster: from a terminal with administrator access (but not logged in as root), run: minikube start
+To Start your cluster: from a terminal with administrator access (but not logged in as root), 
+# Do not forget to run: # minikube start
 
 # Creation of a Secret to keep the password for the Database
 
