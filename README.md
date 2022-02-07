@@ -8,3 +8,4 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube
 
 To install Minikube on other OS: https://minikube.sigs.k8s.io/docs/start/
 
+To verify the minikube version, use the command: minikube version
