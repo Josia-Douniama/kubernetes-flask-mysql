@@ -3,7 +3,7 @@
 # Install docker 
 https://docs.docker.com/engine/install/ubuntu/
 
-# installation of minikube on my ubunutu 
+# installation of minikube on my Ubuntu
 
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 
